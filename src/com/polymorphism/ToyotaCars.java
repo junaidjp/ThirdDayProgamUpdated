@@ -1,6 +1,6 @@
 package com.polymorphism;
 
-public class ToyotaCars extends Car{
+public class ToyotaCars extends Car {
 	
 	public static void main(String args[]){
 		ToyotaCars toyCar=new ToyotaCars();

@@ -38,20 +38,17 @@ public class ConstructorsExplained {
 
 	
 	public static void main(String args[]){
-		//Creating a object will automatically invoke a constructor
-		//ConstructorsExplained conExplained=new ConstructorsExplained();
-		//conExplained.showName(10);
 		
-		//System.out.println(conExplained.showName("Junaid"));
 		
-		//ConstructorsExplained conExplained=new ConstructorsExplained("Cricket");	
+		//this means Current - current method . current object 
+		ConstructorsExplained object1 =new ConstructorsExplained(1);
 		
 		ConstructorsExplained conExplained=new ConstructorsExplained();
 		
 		
 		conExplained=new ConstructorsExplained("Cricket",1);
 		
-		//conExplained = new ConstructorsExplained("saif","UFC",2015);
+		
 		
 	}
 	
